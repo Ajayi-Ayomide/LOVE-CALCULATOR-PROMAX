@@ -5,6 +5,11 @@ function showPercentage(){
      alert("Please enter your name")
     }
     else{
+      let maleName = document.getElementById("firstname").value
+      let femaleName = document.getElementById("secondname").value
+
+      document.getElementById("loverNames").style.display="block"
+      loverNames.innerHTML= `${maleName} & ${femaleName} 💝`
      if (sub >= 0 && sub < 20) {
          gauge.innerHTML = `<p style='font-size:100px'>${sub}%</p>`
          complement.innerHTML = `Behold, it seems your journey together is but at its genesis, akin to a sapling awaiting the nourishment of rain and sunlight. Let us recall the words of Ecclesiastes 4:9-10, 'Two are better than one, because they have a good return for their labor: If either of them falls down, one can help the other up.' 🌱 May this be a time for you to draw closer in understanding and fortitude, as you seek to build a foundation that withstands the tests of time.`
