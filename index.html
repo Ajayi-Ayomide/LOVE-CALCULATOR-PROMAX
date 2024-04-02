@@ -7,17 +7,18 @@
     <link rel="icon" href="image/istockphoto-1160714756-612x612-removebg-preview.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
     <section class="one my-3">
         <div class="container-fluid col-12 mx-auto" style="width: 90%;">
-          <h1 class="card-title text-light text-center fs-1">LOVE GAUGE <img src="image/Cat.png" style="width: 80px;" alt=""></h1>
+          <h1 class="card-title text-light text-center fw-bolder" id="title">LOVE GAUGE</h1>
             <div class="row">
                 <!-- first div -->
-                <div class="card mx-auto my-2 bg-transparent col-12 col-lg-6">
+                <div class="card mx-auto my-2 bg-transparent col-12 col-lg-4">
                     <div class="card-body text-center">
                       <img src="image/remover (1).png" class="w-25"  alt="">
-                      <p class="card-text text-light">In the Garden of love every interactipon is a Blosomming flower. Cultivate the harmony of your Hearts with the love GAUGE.
+                      <p class="card-text text-light">In the Garden of love every interaction is a Blosomming flower. Cultivate the harmony of your Hearts with the love GAUGE.
                         <br>
                         <span>Enter THe Name Of The Gentleman in this Duo</span>
                       </p>
@@ -28,9 +29,11 @@
                       <!-- <button class="btn btn-success form-control">CHECK GAUGE</button> -->
                     </div>
                   </div>
-
+                  <div class="col-12 col-lg-2 flex justify-content-center">
+                    <img src="image/AndIcon (2).png" alt="" id="heart" class="w-100 mt-lg-4 h-75 object-cover">
+                  </div>
                   <!-- second div -->
-                  <div class="card mx-auto my-2 bg-transparent col-12 col-lg-6">
+                  <div class="card mx-auto my-2 bg-transparent col-12 col-lg-4">
                     <div class="card-body text-center">
                       <img src="image/remover (2).png" class="w-25" alt="">
                       <p class="card-text text-light">Love is the language of the heart, spoken through gestures, laughter, and silent understanding. Measure the resonance of your hearts with the love GAUGE.
@@ -44,7 +47,7 @@
                       <!-- <button class="btn btn-success form-control">CHECK GAUGE</button> -->
                     </div>
                   </div>
-                  <button class="btn btn-secondary form-fluid shadow-none mx-auto w-50" data-bs-toggle="modal" data-bs-target="#exampleModal">CHECK GAUGE</button>
+                  <button class="btn btn-light text-danger fw-bolder form-fluid shadow-none mx-auto w-50" data-bs-toggle="modal" data-bs-target="#exampleModal" animate__rubberBand.animate__animated.animate__fast>CHECK GAUGE</button>
             </div>
           </div>
           
@@ -61,7 +64,7 @@
               <!-- text part -->
               <div class="card mx-auto my-5 bg-transparent col-12 col-lg-6">
                 <div class="card-body text-light text-center fw-bolder">
-                  <p id="complement" style="font-style:italic" class="fs-5">The Text will show here</p>
+                  <p id="complement" style="font-style:italic" class="fs-5">What you need to seee show here</p>
                 </div>
               </div>
           </div>
@@ -77,12 +80,12 @@
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content bg-secondary">
-        <div class="modal-header text-light">
-          <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">LOVE GAUGE <img src="image/istockphoto-1401224329-612x612-removebg-preview.png" class="w-25" alt=""></h1>
+      <div class="modal-content bg-light">
+        <div class="modal-header text-danger">
+          <h1 class="modal-title fs-5 text-center fw-bolder" id="exampleModalLabel">LOVE GAUGE <img src="image/istockphoto-1401224329-612x612-removebg-preview.png" class="w-25" alt=""></h1>
           <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
         </div>
-        <div class="modal-body text-light">
+        <div class="modal-body text-danger">
           <p>Remember, the journey of love is unique for every pair of hearts, and this number is just a playful glimpse into the magic that lies between you.</p>
             <p>
               Before we reveal your love Gauge consider this: Love’s essence is not in numbers but in the experiences you build together. So, would you like to continue and see the playful side of love through this percentage, or prefer to keep the mystery and focus on the journey ahead?
@@ -99,7 +102,7 @@
     </div>
   </div>
     </section>
-
+<audio src="" id="music"></audio>
 <script src="love.js"></script>    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
