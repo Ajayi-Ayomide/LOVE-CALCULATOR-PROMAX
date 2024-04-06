@@ -39,7 +39,7 @@ function showPercentage(){
          complement.innerHTML = `Behold, your love is a radiant beacon amidst the darkness, a testament to the enduring power of devotion and unity. Let us reflect upon the timeless words of 1 Corinthians 13:4-7, 'Love is patient, love is kind...'. 💫 May your love be a shining example of these virtues as you journey forward hand in hand, guided by the light of divine love.`
      }
     }
-    music.play(autoPlay=true)
+    music.play()
     document.getElementById('firstname').value = ""
     document.getElementById('secondname').value = ""
  }
